@@ -1,7 +1,6 @@
-GoPromotion
+ShengGuanTu
 ===========
-“Sheng Guan Tu” 2014 Summer Proposal
-Purposes:
+Purpose:
 The objective of this project is to develop an on-line multi-player 2D-3D RPG game for iOS phones and tablets, based on a traditional Chinese strategy board game named “Sheng Guan Tu”, which is the prototype of Sugoroku, a famous Japanese board game. This game was first created in Ming Dynasty, but what we are going to develop is based on the Qing Dynasty Bureaucracy. Here’s an introduction video of this game: https://www.youtube.com/watch?v=e1wxJcih77I
 
 Tools:
