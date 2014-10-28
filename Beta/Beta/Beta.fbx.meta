@@ -1,0 +1,160 @@
+fileFormatVersion: 2
+guid: 811b2b655e6954d498be8fa8c3e34097
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: BETA Joints
+    100004: Bone
+    100006: Camera
+    100008: chest
+    100010: Elbow.L
+    100012: Elbow.R
+    100014: Foot.IK.L
+    100016: Foot.IK.R
+    100018: foot.L
+    100020: foot.R
+    100022: ForeArm.IK.L
+    100024: ForeArm.IK.R
+    100026: ForeArm.L
+    100028: ForeArm.R
+    100030: Hand.IK.L
+    100032: Hand.IK.R
+    100034: Hand.L
+    100036: Hand.R
+    100038: head
+    100040: hips
+    100042: IK/FK Gui
+    100044: Jaw
+    100046: Knee.L
+    100048: Knee.R
+    100050: metarig
+    100052: neck
+    100054: Shin.IK.L
+    100056: Shin.IK.R
+    100058: shin.L
+    100060: shin.R
+    100062: Shoulder.L
+    100064: Shoulder.R
+    100066: spine
+    100068: Switch 1
+    100070: Switch 2
+    100072: Switch 3
+    100074: Switch 4
+    100076: Thigh.IK.L
+    100078: Thigh.IK.R
+    100080: thigh.L
+    100082: thigh.R
+    100084: toe.L
+    100086: toe.R
+    100088: UpperArm.IK.L
+    100090: UpperArm.IK.R
+    100092: UpperArm.L
+    100094: UpperArm.R
+    400000: //RootNode
+    400002: BETA Joints
+    400004: Bone
+    400006: Camera
+    400008: chest
+    400010: Elbow.L
+    400012: Elbow.R
+    400014: Foot.IK.L
+    400016: Foot.IK.R
+    400018: foot.L
+    400020: foot.R
+    400022: ForeArm.IK.L
+    400024: ForeArm.IK.R
+    400026: ForeArm.L
+    400028: ForeArm.R
+    400030: Hand.IK.L
+    400032: Hand.IK.R
+    400034: Hand.L
+    400036: Hand.R
+    400038: head
+    400040: hips
+    400042: IK/FK Gui
+    400044: Jaw
+    400046: Knee.L
+    400048: Knee.R
+    400050: metarig
+    400052: neck
+    400054: Shin.IK.L
+    400056: Shin.IK.R
+    400058: shin.L
+    400060: shin.R
+    400062: Shoulder.L
+    400064: Shoulder.R
+    400066: spine
+    400068: Switch 1
+    400070: Switch 2
+    400072: Switch 3
+    400074: Switch 4
+    400076: Thigh.IK.L
+    400078: Thigh.IK.R
+    400080: thigh.L
+    400082: thigh.R
+    400084: toe.L
+    400086: toe.R
+    400088: UpperArm.IK.L
+    400090: UpperArm.IK.R
+    400092: UpperArm.L
+    400094: UpperArm.R
+    2300000: IK/FK Gui
+    3300000: IK/FK Gui
+    4300002: BETA Joints
+    9500000: //RootNode
+    13700000: BETA Joints
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
