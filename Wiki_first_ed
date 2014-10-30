@@ -1,0 +1,311 @@
+Sheng Guan Tu wiki #1
+Time System （Online Mode）:
+
+Reference Table:
+Game
+Real
+1 day
+20 min
+3 day
+1 hour
+1 month (30 days)
+10 hour
+72 day (7 week and 2 days)
+1 day
+365 days (1 year)
+about 5 days (5.06944)
+62 years 
+314.306 days -> 315 days
+
+Player Info
+Attributes:
+Stamina:  Players will have limited stamina, all actions will consume it and it can be 
+      replenished by food, sleep and tailor sitting.           
+
+Health: As time goes, health decreases. Besides, health can be reduced by defeat of 
+	      troops if he or she is in that troop or by being imprisoned. The only way to 
+	      increase health is to do bonus assignment, determined by Mystery Bonus value.
+	      When health value drops to 0, this player will reincarnate to another family.
+
+Reputation: Nothing to do with players’ morality. Depends on feats, money, capability,
+           literacy, strength.
+ 
+Capability: Increases by accomplishing more game assignments. If players don’t do any 
+	         assignments within 5 days in real time, capability will decrease by 
+	         1%/day (real).
+
+Money: Trade/business, roremuneration (俸禄), work (Ex. Ploughing) 
+
+Mystery Bonus: 
+
+Literacy: Matches with player’s literary attainments. Reading books, finishing related 
+	    assignments, bonus mini games.
+
+Strength: Matches with player’s military attainments. Studying martial arts, winning 
+	        battles, doing bonus mini games can all increase strength values.
+
+
+Occupation
+Officer
+Military Officer/Soldier
+Merchant
+Pharmacist
+Palace Maid
+Guard
+
+
+### All the time mentioned below will be game time, not real time.
+Officer:
+
+Abbreviation
+Name
+Memberships
+ict.
+Inner Court/内阁
+中和殿，保和殿，文华殿，武英殿，文渊阁，东阁。
+(2+2, 1 pin)
+协办大学士（1+1, 1 cpin），内阁学士 (6+4, cpin),
+...
+gcl.
+Grand Council/军机处
+
+
+lb.
+(Board of Civil Appointments) /吏部
+
+
+hb.
+(Board of Finance)/户部
+
+
+lb.
+(Board of Rites) /礼部
+
+
+bb.
+(Board of War)/兵部
+
+
+xb.
+(Board of Punishments)/刑部
+
+
+gb.
+(Board of Works)/工部
+
+
+tmo.
+Transmission Office/通政使司
+3 pin (1+1), 4 pin (1+1), 5 pin (1+1), 7 pin (2+2), - (6+2)
+lfy.
+Lifan Yuan/理藩院
+
+
+hly.
+Hanlin yuan/翰林院
+
+
+stf.
+Shuntian Fu/顺天府
+70~100
+ftf.
+Fengtian Fu/奉天府
+
+
+zdy.
+Zongdu Yamen/总督衙门
+8 stadholder(1 cpin or 2 pin) 直隶总督，两江总督，陕甘总督，闽浙总督，两广总督，湖广总督，四川总督，云贵总督。
+xfy.
+Xunfu Yamen/巡抚衙门
+12 magistrates(2 cpin)
+bzs.
+Buzheng Office/布政使司
+
+
+acs.
+Ancha Office/按察使司
+
+
+dyy.
+Daoyuan Yamen/道员衙门
+
+
+zfy.
+Zhifu Yamen/知府衙门
+
+
+zlt.
+Zhili Ting/直隶厅
+
+
+st.
+SanTing/散厅
+
+
+zlz.
+Zhili Zhou/直隶州
+
+
+sz.
+San Zhou/散州
+
+
+zxy.
+Zhixian Yamen/知府衙门
+
+
+
+
+Military Officer:
+
+Abbreviation
+Department
+Memberships
+go.
+General Office/将军衙门
+13 Generals (1 cpin)
+dty.
+Dutong Yamen/都统衙门
+2 Dutong (1 cpin), 33 vice-dutong (2 pin, 4++29)
+lyy.
+Luyin Yamen/绿营衙门
+
+
+tdy.
+Tidu Yamen/提督衙门
+(1 cpin)
+zby.
+Zongbing Yamen/总兵衙门
+(2 pin)
+...
+...
+...
+
+
+
+Tenures of different officers/military officer from different stratums and positions would be varied. Specifics were listed below.
+
+Stratums (Strata)
+Position (Officer)
+Position 
+(Military Officer)
+Tenure
+Roremuneration
+# of Quests
+1 pin
+Grand academician, Taishi, Taifu, Taibao
+Grand Imperial Guard, Director of Royal Guard
+6 years
+ 俸银180两 禄米90石
+60 + 80
+1 cpin
+Shaoshi, Shaofu, Shaobao, Taishi of Crown Prince, Taifu of Crown Prince, Taibao of Crown Prince, Vice Academician, Minister, Censor
+Capdu, Tidu, Imperial Guard, Dutong
+5 years
+俸银170两 禄米90石
+50 + 70
+2 pin
+Chamberlain, Stadholder, Assistant Minister
+Major General of Royal Vanguard , Major General of the Eight Banners, Vice Dutong, Colonel
+4 years
+俸银155两 禄米77石5斗
+40 + 60
+2 cpin
+Inner Academician, Hanlin Academician, Xunfu, Buzheng
+Brigadier General, Lieutenant Colonel
+4 years
+俸银145两 禄米77石5斗
+40 + 60
+3 pin
+督察院左右督御史，宗人府府丞，通政使司通政使， 大理寺卿，太常寺卿；顺天府府尹，奉天府府尹，  按察使司按察使
+一等侍卫，火器营翼长，健锐营翼长，前锋参领，护军参领，骁骑参领，王府长史；城守卫，参将，指挥使
+3 years
+俸银130两 禄米65石
+30 + 50
+3 cpin
+光禄寺卿，太仆寺卿；都转盐运使司运使
+包衣护军参领， 包衣骁骑参领，王府一等护卫；五旗参领，宣慰使
+3 years
+俸银120两 禄米65石
+30 + 50
+4 pin
+通政使司副使，大理寺少卿，太常寺少卿，太仆寺少卿，督察院六科掌院给事中；顺天府丞，奉天府丞，各省守寻道员
+二等侍卫，副护军参领，副前锋参领，副骁骑参领， 太仆寺马厂驼厂总管，贝勒府司仪长，侍卫领班；防守尉佐领，都司，指挥佥事，宣慰使司同知
+3 years
+俸银105两 禄米52石5斗
+30 + 50
+4 cpin
+内阁侍读学士、翰林院侍读学士、翰林院侍讲学士、国子监祭酒；知府、土知府、盐运使司运同
+城门领、包衣副护军参领、包衣副骁骑参领、包衣佐领、 四品典仪、二等护卫；宣抚使、宣慰使司副使
+3 years
+俸银92两 
+禄米52石5斗
+30 + 50
+5 pin
+左右春坊庶子、通政司参议、光禄寺少卿、六科给事中、宗人府理事官、各部郎中、钦天监监正、太医院院使；同知、土同知、直隶州知州
+三等侍卫、治仪正、步军副尉、步军校、监守信礮官、分管佐领；关口守御、防御、守备、宣慰使司佥事、宣抚使司同知、千户
+30 months
+俸银80 两 禄米40石
+25 + 45
+5 cpin
+翰林院侍读、翰林院侍讲、鸿胪寺少卿、司经局洗马、宗人府副理事、御使、各部员外郎；各州知州、土知州、盐运司副使、盐课提举司提举
+四等侍卫、委署前锋参领、委署护军参领、委署鸟枪护军参领、委署前锋侍卫、下五旗包衣参领、五品典仪、印物章京、三等护卫；守御所千总、河营协办守备、安抚使、招讨使、宣抚使司副使、副千户
+30 months
+俸银70 两 禄米40石
+25 + 45
+6 pin
+内阁侍读、左右春坊中允、太医院左右院判、国子监司业、堂主事、各部院主事、都察院都事、经历、大理寺左右寺丞、宗人府经历、太常寺满汉寺丞、钦天监监判、钦天监汉春夏中秋冬五官正、神乐署署正、僧录司左右善事、道录司左右正一；京府通判、京县知县、通判、土通判
+兰翎侍卫、整仪尉、亲军校、前锋校、护军校、鸟枪护军校、骁骑校、委署步军校；门千总、营千总、宣抚使司佥事、安抚使司同知、副招讨使、长官使、长官、百户
+2 years
+俸银60 两 禄米30石
+20 + 40
+6 cpin
+左右春坊赞善、翰林院修撰、光禄寺署正、钦天监满洲蒙古五官正、汉军秋官正、和声署正、 僧录司左右阐教、道录司左右演法；布政司经历、理问、允判、直隶州州同、州同、土州同
+内务府六品兰翎长、六品典仪；卫千总、安抚使司副使
+2 years
+俸银52 两 禄米30石
+20 + 40
+7 pin
+翰林院编修、大理寺左右评事、太常寺博士、国子监监丞、内阁典籍、通政司经历、知事、太常寺典籍、太仆寺主薄、部寺司库、兵马司副指挥、太常寺满洲读祝官、赞礼郎、鸿胪寺满洲鸣赞、各部院七品笔帖式；京县县丞、顺天府满洲教授、训导、知县、按察司经历、教授
+城门史、太仆寺马厂协领；把总、安抚使司佥事、长官司副长官
+1 years
+俸银45 两 禄米22石5斗
+10 + 30
+7 cpin
+翰林院检讨、銮仪卫经历、中书科中书、内阁中书、詹事府主薄、光禄寺署丞、典薄、国子监博士、助教、钦天监灵台郎、祀祭署奉祀、和声署署丞；京府经历、布政司都事、盐运司经历、直隶州州判、州判、土州判
+七品典仪；盛京游牧副尉
+1 years
+俸银43 两 禄米22石5斗
+10 + 30
+8 pin
+司务、五经博士、国子监学正、学录、钦天监主薄、太医院御医、太常寺协律郎、各部院八品笔帖式、僧录司左右讲经、道录寺左右至灵；布政司库大使、盐运司库大使、盐道库大使、盐课司大使、盐引批验所大使、按察司知事、府经历、县丞、士县丞、四氏学录、州学正、教谕
+外委千总
+1 years
+俸银40两 禄米20石
+10 + 30
+8 cpin
+翰林院典薄、国子监典薄、鸿胪寺主薄、钦天监挚壶正、祀祭署祀丞、神乐署署丞、僧录司左右觉义、道录司左右至义；布政司照磨、盐运司知事、训导
+八品典仪、委署亲军校、委署前锋校、委署护军校、委署骁骑校
+1 years
+俸银36两 禄米20石
+10 + 30
+9 pin
+礼部四译会同馆大使、钦天监监侯、司书、太常寺汉赞礼郎 、各部院九品笔帖式；按察司照磨、府知事、同知知事、通判知事、县主薄
+各营兰翎长；外委把总
+8 months
+俸银33两
+ 禄米16石5斗5升7合
+7 + 35
+9 cpin
+翰林院侍诏、满洲孔目、礼部四译会同官序班、国子监典籍、鸿胪寺汉鸣赞、序班、刑部司狱、钦天监司晨、博士、太医院吏目、太常寺司乐、工部司匠；府厅照磨、州吏目、道库大使、宣课司大使、府税课司大使、司府厅司狱、司府厅仓大使、巡检、土巡检
+太仆寺马厂委署协领；额外外委
+  8 months
+俸银30两5钱2分 禄米15石7斗5升
+7 + 35
+...
+翰林院孔目、都察院库使、礼部铸印局大使、兵马司吏目、崇文门副使；典史、土典史、关大使、府检校、长官司吏目、茶引批验所大使、盐茶大使、驿丞、土驿丞、河泊所所官、牐官、道县仓大使
+百长、土舍、土目
+1 month - 6 months
+俸银30两5钱2分 禄米15石7斗5升
+   5 + 30
+
