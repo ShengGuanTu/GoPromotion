@@ -1,0 +1,185 @@
+using UnityEngine;
+using System.Collections;
+
+using Helper;
+/// <summary>
+/// Player motor.
+/// Included with the PlayerCharacter -- behaviour of this instance's 
+/// ablity to move around the environment and animate it's model based on input
+/// </summary>
+
+public class PlayerMotor : MonoBehaviour {
+
+	#region Public Fields & Properties
+	public float walkSpeed = 3f;
+	public float runSpeed = 5f;
+	public float sprintSpeed = 7f;
+	public float _rotationSpeed = 140f;
+	public float jumpHeight = 10f;
+	public float gravity = 20f;
+
+	#endregion
+
+
+	#region Private Fields & Properties
+	private float _horizontal = 0f;
+	private float _vertical = 0f;
+
+	private float _moveSpeed;
+	private float _airVelocity = 0f;
+
+	private Transform _myXform;
+	private Vector3 _moveDirection = Vector3.zero;
+
+	private CharacterController _controller;
+	private Animator _animator;
+
+	private SpeedState _speedState = SpeedState.Run;
+	private CameraState _cameraState;
+
+	private playerCharacter _pc;
+	private PlayerCamera _camera;
+
+
+	#endregion
+
+
+	#region Gets & Sets
+
+	/// <summary>
+	/// Gets or sets the move speed.
+	/// </summary>
+	/// <value>The move speed.</value>
+	/// 
+	public float MoveSpeed{
+		get {return _moveSpeed;}
+		set {_moveSpeed = value;}
+	}
+	#endregion
+
+
+	#region System Methods
+	// Use this for initialization
+	private void Start () {
+		if (networkView != null) {
+		// Ensure that initialization only executes if this is a valid instance
+			if (networkView.isMine || Network.peerType == NetworkPeerType.Disconnected) {
+
+				// Cache references to child components of this gameObject
+				_myXform = this.GetComponent<Transform> ();
+
+				_pc = this.GetComponent<playerCharacter> ();
+				_camera = this.GetComponent<PlayerCamera> ();
+
+				//_animator = this.GetComponent<Animator> ();
+
+				_animator = _pc.Animator;
+				_controller = _pc.Controller;
+
+
+				_animator.SetBool(AnimatorConditions.Grounded, true);
+			} 
+			else {
+				enabled = false;
+			}
+		}
+	}
+	
+	// Update is called once per frame
+	private void Update () {
+
+		_cameraState = _camera.CameraState;
+
+		CalculateSpeed ();
+
+		switch (_cameraState){
+
+			case CameraState.Normal:
+
+			Debug.Log("Normal state");
+
+			// Allow the player to rotate their character
+			if (Input.GetAxis(PlayerInput.RightX) > 0.1f || Input.GetAxis(PlayerInput.RightX) < -0.1f){
+
+				_myXform.Rotate (0f, Input.GetAxis(PlayerInput.RightX)*_rotationSpeed*Time.deltaTime,0f);
+			}
+
+			if(_controller.isGrounded == true){
+
+				_moveDirection = Vector3.zero;
+				_airVelocity = 0f;
+
+				_animator.SetFloat(AnimatorConditions.AirVelocity, _airVelocity);
+				_animator.SetBool(AnimatorConditions.Grounded, true);
+
+				// cache the value returned by human input into float variables.
+				_horizontal = Input.GetAxis(PlayerInput.Horizontal);
+				_vertical = Input.GetAxis(PlayerInput.Vertical);
+				Debug.Log ("get horizontal/vertical value");
+
+				//set the cached input values as the conditions for the animator FSM
+				_animator.SetFloat(AnimatorConditions.Direction, _horizontal);
+				_animator.SetFloat(AnimatorConditions.Speed, _vertical);
+
+				//check if jump button pressed
+				if(Input.GetButtonDown(PlayerInput.Jump)){
+
+					Jump ();
+				}
+
+			}
+			else{
+
+				_moveDirection.x = Input.GetAxis(PlayerInput.Horizontal) * _moveSpeed;
+				_moveDirection.y = Input.GetAxis(PlayerInput.Vertical) * _moveSpeed;
+				_moveDirection = _myXform.TransformDirection(_moveDirection);
+
+				_animator.SetBool(AnimatorConditions.Grounded, false);
+			}
+
+
+			break;
+
+			case CameraState.Target:
+
+			Debug.Log("Target state");
+			break;
+		}
+	}
+
+	#endregion
+
+
+	#region Custom Methods
+	private void CalculateSpeed(){
+
+		switch (_speedState) {
+
+		case SpeedState.Walk:
+			_moveSpeed = walkSpeed;
+			break;
+
+		case SpeedState.Run:
+			_moveSpeed = runSpeed;
+			break;
+
+		case SpeedState.Sprint:
+			_moveSpeed = sprintSpeed;
+			break;
+		}
+
+	}
+
+	private void Jump(){
+
+		_moveDirection.y = jumpHeight;
+		_airVelocity -= Time.time;
+
+		//_animator.SetFloat(AnimatorConditions.AirVelocity, _airVelocity);
+	}
+
+	#endregion
+
+
+
+}
